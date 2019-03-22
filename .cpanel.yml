@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/june/projects/side/personal_website
+    - /bin/cp -R images $DEPLOYPATH

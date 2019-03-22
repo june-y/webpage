@@ -83,3 +83,14 @@ activate :directory_indexes
    activate :asset_host, :host => '//juneyolcuepa.io'
 
  end
+
+ activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.host          = 'www.bluehost.com'
+  deploy.path          = '/home/june/projects/side/personal_website'
+  # Optional Settings
+  # deploy.user  = 'tvaughan' # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # deploy.clean = true # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
+end
