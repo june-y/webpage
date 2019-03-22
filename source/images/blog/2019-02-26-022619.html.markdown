@@ -1,0 +1,53 @@
+---
+
+title: 022619
+date: 2019-02-26 12:40 UTC
+tags:
+
+---
+
+This is my first article making an 'article' with the middleman blogging options. I typically write in Evernote, and I would like to eventually fiddle with the Evernote API and see if I can just pull and push the data to where the 'articles' are. For the first one, I wanted Middleman to generate the article and subdirectory.
+
+As I'm already talking about web development I want to lay out an idea I have been thinking about. Due to a variety of reasons when I was younger, I did not want to work on websites at all. I felt it wasn't viewed as hard as other fields of developments; I had such a strong background in art and design I felt it was too obvious of a choice; I'm stubborn.
+
+I want to design robots. I want to make more physical technology that is beautiful and draws people away from their inner worlds to interact with the outer world.  As I started thinking about technology in 3D, I reframed the way I felt about technology in 2D. I thought working on and for a screen visual was boring, but now I can appreciate that we are not using these tools in a vacuum. The technology is bound by the limitations of a screen. Considering how we keep bumping the size on tv's and phones, I wonder if the screen is even thought of as a bug, and not a feature. The screen makes me think of the beginning of conceptual art. There was a lot of consideration for the materials used to create the art, where the art was 'available', like what needed to happen to label something art. I started to question the limitations of space with a screen. Could I invoke a sense of reading from a (physical object) book or magazine with just a web page? Could I bring in elements of room design into something so flat?
+
+In the year 2019 it feels like technology is only improved and developed for the purposes of capitalism OR for the hopes of a convenient future with automated tools. I need more art and feeling in my technology. Sci-novels brought so many different ways of looking into the future, and our current tech world is just drab and uninspired.
+
+~~ This is actually a good segway to an article I wanted to write about yesterday. And so I will probably split these up
+
+https://www.theguardian.com/lifeandstyle/2019/feb/23/truth-world-built-for-men-car-crashes
+
+The article discusses the impact of using items designed by men. It mentions this impact across fields, such as car design, voice recognition tools, cell phones, and even the services offered by AI tools, such as Siri. A while back I went to a local tech talk about the impact of having Siri, Alexa and Cortana designed as women-speaking and interacting. Going to a woman for information, setting appointments, making a grocery list not only reinforces the emotional labor we expect woman to perform but design wise screams "men who never leave their mothers teat". Weirdly the only two people who used the masculine-voiced option, were men. I would like to have this stat. Oh I have google lets check this out --
+
+"percentage of who uses the male siri"
+
+leads to
+
+https://www.huffingtonpost.com/2013/06/11/siri-voice-man-woman_n_3423245.html
+
+Third paragraph down -
+
+
+“Female voices are seen, on average, as less intelligent than male voices,” noted Nass, author of The Man Who Lied to His Laptop: What Machines Teach Us About Human Relationships. “It’s safer in a sense to have a male voice in the sense that you’re not going to disappoint people as much.”
+
+I guess 2013 was totally a million years ago but wow, that WAS EXACTLY why I felt we needed a masculine voice.
+
+"In four languages, Siri actually defaults to a male voice: Arabic, French, Dutch and British English."
+
+Rabbit hole of male voice searches leads to
+
+https://www.highervisibility.com/blog/how-popular-is-voice-search/
+
+Finish this later; Maybe look into voice search. 
+
+
+
+
+
+
+This article leads to this book which I want so I'm putting it here for reminder.
+
+https://guardianbookshop.com/invisible-women-9781784741723.html?utm_source=editoriallink&utm_medium=merch&utm_campaign=article
+
+The data gap between men and women.
