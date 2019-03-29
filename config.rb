@@ -80,17 +80,18 @@ activate :directory_indexes
    # Append a hash to asset urls (make sure to use the url helpers)
    activate :asset_hash
 
-   activate :asset_host, :host => '//juneyolcuepa.io'
+   activate :asset_host, :host => 'www.juneyolcuepa.io'
 
  end
 
  activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.host          = 'www.bluehost.com'
+  deploy.method = :sftp
+  deploy.build_before  = true
+  deploy.host          = 'www.juneyolcuepa.io'
   deploy.path          = '/home/june/projects/side/personal_website'
   # Optional Settings
   # deploy.user  = 'tvaughan' # no default
-  # deploy.port  = 5309 # ssh port, default: 22
+  deploy.port  = 22 # ssh port, default: 22
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 end

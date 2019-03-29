@@ -1,23 +1,159 @@
 ---
 title: Welcome
 ---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>June Yolcuepa</title>
+  <style>
+    .header {
+        width: 100%;
+        height: 30px;
+        position: fixed;
+        background-color: #fff6f4;
+        display: block;
+        overflow: hidden;
+        top: 0;
+        left: 0;
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
-  <title id="middleman-logo__title">Middleman</title>
-  <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
-  <path class="middleman-logo__top-right-bar" fill="#fff" d="M200 0l200 40v20L200 30z"/>
-  <path class="middleman-logo__left-m" fill-opacity=".45" d="M0 78v184l45 5V152l45 83 47-83v129l53 7V52l-57 8-43 83-43-70z"/>
-  <path class="middleman-logo__right-m" fill="#fff" d="M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z"/>
-  <path class="middleman-logo__bottom-left-bar" fill-opacity=".45" d="M0 300l200 40v-30L0 280z"/>
-  <path class="middleman-logo__bottom-right-bar" fill="#fff" d="M200 340l200-40v-20l-200 30z"/>
-</svg>
+      }
 
-<h1>
-  Middleman is Running
-</h1>
+    .footer {
 
-<%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %>
+      width: 100%;
+      height: 30px;
+      display: block;
+      background-color: #fff6f4;
+      position: fixed;
+      bottom:0;
+
+    }
+    .landing_left_side {
+       width:30px;
+       height: 100%;
+       position: fixed;
+       background-color: #fff6f4;
+       float:left;
+       top: 100;
+       left: 0;
+       display: block;
+    }
+
+    .landing_right_side {
+       width:30px;
+       height: 100%;
+       position: fixed;
+       background-color: #fff6f4;
+       float:right;
+       top: 100;
+       right: 0;
+    }
+
+
+    .landing_diagonal_top {
+       background:#d62246;
+       z-index: -1;
+       position: absolute;
+       bottom: 0px;
+       width: 100%;
+       height: 100%;
+       -webkit-clip-path: polygon(0 75%, 85% 0, 0 0);
+       clip-path: polygon(0 75%, 85% 0, 0 0);
+       -webkit-shape-outside: polygon(0 75%, 85% 0, 0 0);
+    }
+
+    .landing_diagonal_middle {
+      background:#f76343;
+      z-index: -1;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      -webkit-clip-path: polygon(0 29%, 100% 28%, 100% 100%, 38% 100%);
+      clip-path: polygon(0 29%, 100% 28%, 100% 100%, 38% 100%);
+      -webkit-shape-outside: polygon(0 29%, 100% 28%, 100% 100%, 38% 100%);
+    }
+
+    .landing_diagonal_bottom {
+      background:#4b1d3f;
+       z-index: -1;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      -webkit-clip-path: polygon(100% 100%, 25% 100%, 100% 50%);
+      clip-path: polygon(100% 100%, 25% 100%, 100% 50%);
+      -webkit-shape-outside: polygon(100% 100%, 25% 100%, 100% 50%);
+    }
+
+    .page-container {
+        background-color: #fff6f4;
+        width:100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+
+    }
+
+  .text-container-top {
+    text-align: left;
+     font-size: 32px;
+     padding-left: 35px;
+     padding-top: 45px;
+  }
+
+  .text-container-mid {
+     text-align: center;
+     font-size: 32px;
+     padding-top: 425px;
+  }
+
+
+  .text-container-bottom {
+     text-align: right;
+     font-size: 32px;
+  }
+
+
+  </style>
+
+</head>
+
+
+  <body>
+
+    <div class="header">
+    </div>
+
+    <div class="landing_left_side"></div>
+    <div class="landing_right_side"></div>
+
+      <div class="page-container">
+
+          <div class="landing_diagonal_top">
+          </div>
+
+
+
+        <a href="../resume.pdf">
+          <div class="landing_diagonal_middle ">
+            <div class="text-container-mid">
+              <b>Resume</b>
+            </div>
+
+          </div>
+        </a>
+
+
+
+          <div class="landing_diagonal_bottom">
+          </div>
+
+
+
+       </div> <%# container %>
+    <div class="footer">
+    </div>
+
+  </body>
+</html>
