@@ -46,6 +46,8 @@ set :fonts_dir, 'fonts'
 
 activate :directory_indexes
 
+# disable layout
+page ".htaccess.apache", :layout => false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -94,4 +96,9 @@ activate :directory_indexes
   deploy.port  = 22 # ssh port, default: 22
   # deploy.clean = true # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
+end
+
+# rename file after build
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
